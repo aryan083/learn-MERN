@@ -1,0 +1,27 @@
+backendusingnodeExpressMonogo/node_modules/
+backendusingnodeExpressMonogo/.env
+frontEndinreact/node_modules
+frontEndinreact/.env
+frontEndinreact/# Logs
+frontEndinreact/logs
+frontEndinreact/*.log
+frontEndinreact/npm-debug.log*
+frontEndinreact/yarn-debug.log*
+frontEndinreact/yarn-error.log*
+frontEndinreact/pnpm-debug.log*
+frontEndinreact/lerna-debug.log*
+
+frontEndinreact/dist
+frontEndinreact/dist-ssr
+frontEndinreact/*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
