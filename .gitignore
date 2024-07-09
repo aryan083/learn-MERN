@@ -1,5 +1,5 @@
-Backend/node_modules/
-Backend/.env
+Backend/my-crud-app-backend/node_modules/
+Backend/my-crud-app-backend/.env
 frontend/node_modules
 frontend/.env
 frontend/# Logs
