@@ -1,19 +1,19 @@
-backendusingnodeExpressMonogo/node_modules/
-backendusingnodeExpressMonogo/.env
-frontEndinreact/node_modules
-frontEndinreact/.env
-frontEndinreact/# Logs
-frontEndinreact/logs
-frontEndinreact/*.log
-frontEndinreact/npm-debug.log*
-frontEndinreact/yarn-debug.log*
-frontEndinreact/yarn-error.log*
-frontEndinreact/pnpm-debug.log*
-frontEndinreact/lerna-debug.log*
+Backend/node_modules/
+Backend/.env
+frontend/node_modules
+frontend/.env
+frontend/# Logs
+frontend/logs
+frontend/*.log
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+frontend/lerna-debug.log*
 
-frontEndinreact/dist
-frontEndinreact/dist-ssr
-frontEndinreact/*.local
+frontend/dist
+frontend/dist-ssr
+frontend/*.local
 
 # Editor directories and files
 .vscode/*
