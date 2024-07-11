@@ -21,11 +21,11 @@ const userSchema = new Schema({
     // createdAt: {
     //     type: Date,
     //     default: Date.now
-    // }
+    // }N
 });
 
 // Create the User model
-const User = mongoose.model('users', userSchema);
+const User = mongoose.Schema('users', userSchema);
 
 // Export a function to get the User model
 module.exports = function getUserModel() {
