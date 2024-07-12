@@ -13,7 +13,7 @@ router.get('/admin/:adminid', (req, res, next) => {
 );
 
 
-router.post('/admin/:adminid', (req, res, next) => {
+router.get('/admin/:adminid', (req, res, next) => {
     const id = req.body.adminid;
     res.send(`This is the admin page with id ${id}`);
     
