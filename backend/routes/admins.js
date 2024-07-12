@@ -5,9 +5,19 @@ router.get('/', (req, res, next) => {
     res.send('This the admin page');
 }
 );
+router.get('/admin/:adminid', (req, res, next) => {
 
-router.post('/', (req, res, next) => {
-    res.send('This the admin page');
+    req.params.adminid;
+    res.send(`This is the admin page with id ${req.params.adminid}`);
+}
+);
+
+
+router.post('/admin/:adminid', (req, res, next) => {
+    const id = req.body.adminid;
+    res.send(`This is the admin page with id ${id}`);
+    
+
 }
 );
 
